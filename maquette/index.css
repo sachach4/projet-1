@@ -1,0 +1,144 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*supprimer marge bordure etc
+}*/
+  
+ .paysage{
+    background-image: url(image/mastehead.jpg);
+    background-repeat: no-repeat;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    padding-bottom: 800px;
+    flex-grow: initial;
+      }  
+.take
+{
+    width: 10px;
+    color: white;
+    font-family: Arial;
+    float: right;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding-top: 40px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    margin-right: 01450px;
+    margin-left: 1px;
+    padding-left: 3px;
+    margin-top: -30px;
+    font-weight: bold;
+
+}
+
+.ecriture
+{
+    
+    font-family: Arial;
+    color: white;
+    padding-top: 200px;
+padding-left: 70px;
+    margin-top: 100px;
+}
+.perfect
+{font-family: arial;
+    width: 20px;
+    padding-left: 70px;
+padding-top: 10px;
+    color: white;
+}
+
+.iphone
+{
+    
+    float: right;
+    margin-left: 0px;
+    margin-top: -200px;
+    margin-right: -30px;
+
+    flex-grow: initial;
+}
+.ecriture2
+{
+    
+    padding-left: 20px;
+}
+section h1 
+{
+    display: flex;
+    justify-content: right;
+    margin-top: -200px;
+}
+h1
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    width: 900px; 
+     padding-bottom: 100px;
+ }
+ .block {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    align-self: auto;
+}
+    .box {
+        width: 500px;
+        height: 200px;
+        margin-left: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        background-color: midnightblue;
+    }
+      .box>* {
+        flex: 1 1 160px;
+    }
+.boxpink
+{
+    background-color: pink;
+}
+.boxvelvet
+{
+    background-color: rebeccapurple;
+
+}
+.boxgreen
+{
+    background-color: mediumseagreen;
+}
+.box:nth-child(1) 
+{
+    flex:2;
+}
+#photo_box
+{
+    text-align: left;
+}
+
+#photo_box img
+{
+    border: 1px solid #181818;
+}
+
+     .star
+     {
+        margin-top: -200px;
+        display: flex;
+        align-items: flex-start;
+ 
+     }
+
+
+     
+
